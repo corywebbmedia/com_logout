@@ -5,4 +5,10 @@
 			<![CDATA[COM_LOGOUT]]>
 		</message>
 	</layout>
+	<fields name="params">
+		<fieldset name="basic" label="LOGOUT_BASIC_PARAMETERS">
+			<field name="logoutmessage" type="text" default="LOGOUT_MESSAGE_DEFAULT" size="30" label="LOGOUT_MESSAGE" description="LOGOUT_MESSAGE_DESCRIPTION" />
+			<field name="redirect" type="menuitem" disable="separator" label="LOGOUT_REDIRECT" description="LOGOUT_REDIRECT_DESCRIPTION" />
+		</fieldset>
+	</fields>
 </metadata>
